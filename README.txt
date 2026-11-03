@@ -11,3 +11,5 @@ BUCHVERSAND APP v1 – EINRICHTUNG
 9. Sensible Empfängeradressen nur mit berechtigten Mitarbeitern teilen; Aufbewahrung und Löschung gemäß Datenschutz festlegen.
 
 WICHTIG: Ohne Firebase-Konfiguration ist die App nur eine Layout-Demo. Die App benötigt eine Internetverbindung. Bestandsänderungen sind als Bewegungen dokumentiert, der Bestand ergibt sich aus deren Summe. Das Versand-Buchen erfolgt atomar per Firestore-Transaktion. Der Zugang zum Bestand und zu Adressen ist durch Firestore Rules geschützt.
+
+Version 1.1: sichtbare Versionsnummer auf Startseite und Unterseiten, Firebase-Konfiguration hinterlegt. Hinweis: Firestore-Regeln und Benutzerrollen müssen passend eingerichtet werden.
